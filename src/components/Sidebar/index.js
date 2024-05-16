@@ -10,13 +10,13 @@ const Sidebar = () => (
     <div className='nav-bar'>
         <Link className='logo' to="/">
             <img src={LogoS} alt="logo" />
-            <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
+            <img className="sub-logo" src={LogoSubtitle} alt="lizeth" />
         </Link>
         <nav>
             <NavLink exact="true" activeclassname="active" to="/">
                 <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="about-link "to="/about">
+            <NavLink exact="true" activeclassname="active" className="about-link " to="/about">
                 <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
@@ -26,12 +26,12 @@ const Sidebar = () => (
         <ul>
             <li>
                 <a target='_blank' rel='nodeferrer' href='https://www.linkedin.com/in/lizeth-vera25/'>
-                    <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e'/>
+                    <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e' />
                 </a>
             </li>
             <li>
                 <a target='_blank' rel='nodeferrer' href='https://github.com/veralizeth'>
-                    <FontAwesomeIcon icon={faGithub} color='#4d4d4e'/>
+                    <FontAwesomeIcon icon={faGithub} color='#4d4d4e' />
                 </a>
             </li>
         </ul>
